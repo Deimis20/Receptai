@@ -1,0 +1,27 @@
+.copy {
+  background-color: rgba(0, 0, 0, 0.05);
+}
+input {
+  border: 0px;
+}
+.submit-button {
+  display: flex;
+  width: 10rem;
+  padding: 0.6rem 4.25rem;
+  justify-content: center;
+  align-items: center;
+  gap: 0.625rem;
+  border-radius: 1.25rem;
+  background: #f79f1a;
+  color: #fff;
+  font-family: Inter;
+  font-size: 1.25rem;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+  letter-spacing: 0.03125rem;
+}
+
+.text-reset {
+  text-decoration: none;
+}
