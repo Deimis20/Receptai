@@ -1,4 +1,3 @@
-import { Container } from "react-bootstrap";
 import { ReactComponent as Logotipas } from "../svg/logo.svg";
 import "./footer.scss";
 const Footer = () => {
@@ -38,34 +37,7 @@ const Footer = () => {
               </p>
             </div>
 
-            <div className="col-md-3 col-lg-2 col-xl-2 mx-auto mb-4">
-              <h5 className="text-uppercase fw-bold mb-4">Categories</h5>
-              <p>
-                <a href="#!" className="text-reset">
-                  Breakfast
-                </a>
-              </p>
-              <p>
-                <a href="#!" className="text-reset">
-                  Lunch
-                </a>
-              </p>
-              <p>
-                <a href="#!" className="text-reset">
-                  Dinner
-                </a>
-              </p>
-              <p>
-                <a href="#!" className="text-reset">
-                  Dessert
-                </a>
-              </p>
-              <p>
-                <a href="#!" className="text-reset">
-                  Drink
-                </a>
-              </p>
-            </div>
+
 
             <div className="col-md-3 col-lg-2 col-xl-2 mx-auto mb-4">
               <h5 className="text-uppercase fw-bold mb-4">Social</h5>
@@ -92,7 +64,7 @@ const Footer = () => {
             </div>
             <div className="col-md-3 col-lg-4 col-xl-3 mx-auto mb-4">
               <h6 className="text-uppercase fw-bold mb-4">
-                <i className="fas fa-gem me-3"></i>Sign up for our newsletter
+                <i className="me-3"></i>Sign up for our newsletter
               </h6>
               <div></div>
               <input

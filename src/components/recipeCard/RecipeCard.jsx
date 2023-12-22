@@ -2,7 +2,7 @@ import './recipeCard.scss';
 import clock from '../svg/time.svg'
 import user from "../svg/persons.svg";
 import stat from "../svg/diff.svg";
-
+import ytlogo from "../svg/YouTubeLogo.png"
 function RecipeCard({ src, time, serving, stats, name }) {
 	return (
 		<div className="card shadow">
@@ -18,7 +18,10 @@ function RecipeCard({ src, time, serving, stats, name }) {
 			<div className="card-body">
 				<p className="card-text">
 					<span className='card__header'>{name}</span>
-					<a href='/#' className='card__read-more'>View Recipe</a>
+					<div className='d-flex justify-content-between'>
+					<a href='/#' className='card__read-more '>View Recipe</a>
+					<a href='/#' className='card__read-more text-red'><img className='small' src={ytlogo} alt="YT LLOGO" /></a>
+					</div>
 				</p>
 			</div>
 		</div>

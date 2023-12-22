@@ -1,15 +1,14 @@
-import Header from "../header/Header"
-import Main from "../main/Main"
+import Header from "../header/Header";
+import Main from "../main/Main";
 import Footer from "../footer/Footer";
-
-const App=()=>{
+const App = () => {
   return (
     <>
       <Header></Header>
       <Main></Main>
       <Footer></Footer>
     </>
-  )
-}
+  );
+};
 
-export default App
+export default App;
